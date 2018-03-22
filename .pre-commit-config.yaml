@@ -1,3 +1,5 @@
 repos:
--    repo: https://github.com/TerryOShea/jtrain
-
+-   repo: https://github.com/TerryOShea/jtrain
+    rev: v0.1.0
+    hooks:
+    -   id: trailing-whitespace
