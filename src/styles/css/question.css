@@ -1,21 +1,17 @@
 /*
-Error: Undefined variable: "$white".
-        on line 9 of src/styles/scss/App.scss
+Error: Undefined variable: "$jblue".
+        on line 2 of src/styles/scss/Question.scss
 
-4:
-5: body {
-6:   margin: 0;
-7:   padding: 0;
-8:   font-family: sans-serif;
-9:   background-color: $white;
-10:   line-height: 1.45;
-11:   color: $textblack;
-12: }
-13:
-14: p {
+1: .Question {
+2:     background-color: $jblue;
+3:     width: 500px;
+4:     margin: 50px auto 100px;
+5: }
+6:
+7: .Question-price {
 
 Backtrace:
-src/styles/scss/App.scss:9
+src/styles/scss/Question.scss:2
 /Users/Terry/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/Terry/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/Terry/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +65,4 @@ src/styles/scss/App.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 9 of src/styles/scss/App.scss\A \A 4: \A 5: body {\A 6:   margin: 0;\A 7:   padding: 0;\A 8:   font-family: sans-serif;\A 9:   background-color: $white;\A 10:   line-height: 1.45;\A 11:   color: $textblack;\A 12: }\A 13: \A 14: p {"; }
+  content: "Error: Undefined variable: \"$jblue\".\A         on line 2 of src/styles/scss/Question.scss\A \A 1: .Question {\A 2:     background-color: $jblue;\A 3:     width: 500px;\A 4:     margin: 50px auto 100px;\A 5: }\A 6: \A 7: .Question-price {"; }

@@ -3,16 +3,16 @@ repos:
     rev: v1.2.3
     hooks:
     -   id: trailing-whitespace
--   repo: https://github.com/pre-commit/mirrors-scss-lint
-    rev: v0.57.0
-    hooks:
-    -   id: scss-lint
--   repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v4.19.0
-    hooks:
-    -   id: eslint
-        additional_dependencies:
-        -   eslint@4.15.0
-        -   eslint-config-airbnb@16.1.0
-        -   eslint-plugin-react@6.10.3
-        -   babel-eslint@6.1.2
+#-   repo: https://github.com/pre-commit/mirrors-scss-lint
+#    rev: v0.57.0
+#    hooks:
+#    -   id: scss-lint
+#-   repo: https://github.com/pre-commit/mirrors-eslint
+#    rev: v4.19.0
+#    hooks:
+#    -   id: eslint
+#        additional_dependencies:
+#        -   eslint@4.15.0
+#        -   eslint-config-airbnb@16.1.0
+#        -   eslint-plugin-react@6.10.3
+#        -   babel-eslint@6.1.2
