@@ -1,37 +1,37 @@
-.Question {
-    background-color: $jblue;
-    width: 500px;
-    margin: 50px auto 100px;
+.question {
+  background-color: $jblue;
+  margin: 50px auto 100px;
+  width: 500px;
 }
 
-.Question-price {
-    color: $jgold;
-    font-family: $dollar-font;
-    border-bottom: 3px solid $jgold;
-    padding: 25px;
-    position: relative;
+.question-price {
+  border-bottom: 3px solid $jgold;
+  color: $jgold;
+  font-family: $dollar-font;
+  padding: 25px;
+  position: relative;
 }
 
-.Question-flag {
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: $white;
+.question-flag {
+  color: $white;
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
 
-    &:hover {
-        cursor: pointer;
-        color: $red;
-    }
+  &:hover {
+    color: $red;
+    cursor: pointer;
+  }
 }
 
-.Question-text {
-    font-family: $question-font;
-    color: $white;
-    text-transform: uppercase;
-    padding: 50px;
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.question-text {
+  align-items: center;
+  color: $white;
+  display: flex;
+  font-family: $question-font;
+  justify-content: center;
+  min-height: 200px;
+  padding: 50px;
+  text-transform: uppercase;
 }

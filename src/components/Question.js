@@ -28,12 +28,12 @@ class Question extends Component {
         const shownText = this.state.showingAnswer ? answerText : questionText;
 
         return (
-            <div className="Question">
-                <div className="Question-price">
+            <div className="question">
+                <div className="question-price">
                     <h2>$800</h2>
-                    <h3><i className="fas fa-flag Question-flag"></i></h3>
+                    <h3><i className="fas fa-flag question-flag"></i></h3>
                 </div>
-                <div className="Question-text">
+                <div className="question-text">
                     <h3>{shownText}</h3>
                 </div>
             </div>
